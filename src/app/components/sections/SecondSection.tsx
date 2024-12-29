@@ -1,23 +1,22 @@
 import Image from "next/image";
 import React from "react";
-import egusi from "../../../../public/assets/egusi.jpg";
+import meditate from "../../../../public/assets/meditate.jpg";
 
 const SecondSection = () => {
   return (
-    <section className="h-[100vh] flex max-sm:flex-col p-2 items-center justify-center">
-      <div className="relative w-[60vw] h-[80vh] max-sm:h-[30vh] max-sm:w-[80vw]">
-        <Image src={egusi} alt="curry rice" fill objectFit="contain" />
+    <section className="bg-black h-[100vh] flex max-sm:flex-col p-2 items-center justify-center space-between">
+      <div className="relative w-[60vw] h-[80vh] max-sm:h-[30vh] max-sm:w-[80vw] mx-24">
+        <Image src={meditate} alt="curry rice" fill objectFit="contain" />
       </div>
-      <div className="w-[50vw] max-sm:w-[90vw] max-sm:justify-center max-sm:mt-4 flex text-[0.8rem]">
-        <div className="w-[30rem] bg-[rgb(233,186,0)] p-4">
-          <p className="w-full max-sm:w-[80vw] max-sm:text-center">
-            Elechi's Place brings the African cuisine to you, in a way you have
-            probably never experienced, the taste, the aroma, the soul, these
-            are what make our dishes. Experience the rich flavors of Africa at
-            Elechi's! Our savory dishes will transport you to the heart of the
-            continent with their unique taste, enticing aroma, and soulful
-            essence. Join us and let Elechi's bring the vibrant spirit of Africa
-            to your plate like never before.
+      <div className="w-[50vw] h-[80vh] max-sm:w-[90vw] items-center max-sm:justify-center max-sm:mt-4 flex text-[0.8rem] mx-24 ml-0">
+        <div className="w-[40rem] p-4">
+          <p className="w-full max-sm:w-[80vw] max-sm:text-center text-white text-[1.8rem]">
+            Embark on a journey of healing with our{" "}
+            <b>Natural Holistic Healthcare </b>
+            services. Discover a harmonious blend of ancient wisdom and modern
+            techniques, where mind, body, and spirit are nurtured. Let us guide
+            you towards a state of holistic well-being, restoring balance and
+            unlocking your inner strength.
           </p>
         </div>
       </div>

@@ -18,8 +18,13 @@ const Header = () => {
   return (
     <>
       <header className="max-sm:hidden p-2 px-10 relative w-full flex items-center justify-between">
-        <section className="text-[0.75rem]">
-          <Link href="/reservation">RESERVATION</Link>
+        <section className="gap-4 text-[0.75rem] flex justify-between items-center cursor-pointer z-40">
+          <span>
+            <Link href="/booking">BOOKING</Link>
+          </span>
+          <span>
+            <Link href="/programs">PROGRAMS</Link>
+          </span>
         </section>
 
         <section>
@@ -27,8 +32,8 @@ const Header = () => {
             <div className="relative w-16 h-16">
               <Image src={logo} fill alt="left" />
             </div>
-            <b style={{ fontFamily: "Chromate" }} className="text-[1.8rem]">
-              Elechi's
+            <b style={{ fontFamily: "Akkurat" }} className="text-[1.8rem]">
+              {!true ? "AMHC" : "African Mental Health Center"}
             </b>
           </Link>
         </section>

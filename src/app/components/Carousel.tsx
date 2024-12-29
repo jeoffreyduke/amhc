@@ -32,7 +32,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
           layout="fill"
           fill
           key={imageData.alt}
-          className={`absolute inset-0 object-cover w-full h-full opacity-0 transition-opacity duration-500 ease-in-out ${
+          className={`border-r-2 absolute inset-0 object-cover w-full h-full opacity-0 transition-opacity duration-500 ease-in-out ${
             currentImageIndex === index ? "opacity-100" : ""
           }`}
           alt={imageData.alt}

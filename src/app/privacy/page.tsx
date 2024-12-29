@@ -7,15 +7,15 @@ function Privacy() {
   return (
     <main>
       <Header />
-      <section className="p-8">
-        <p className="bg-[rgb(233,186,0)] w-fit p-3 text-[1.5rem] my-16 mt-8 max-sm:my-8">
+      <section className="bg-[rgb(240,230,220)] text-black p-8">
+        <p className="w-fit p-3 text-[1.5rem] my-16 mt-8 max-sm:my-8">
           <b>Privacy Policy</b>
         </p>
         <p className="mt-2">
-          This Privacy Policy describes how Elechi's Restaurant ("we," "us,"
-          "our") collects, uses, and discloses information when you use our
-          website. By using our website, you consent to the collection, use, and
-          disclosure of information as described in this Privacy Policy.
+          This Privacy Policy describes how AFRICAN MENTAL HEALTH CENTER ("we,"
+          "us," "our") collects, uses, and discloses information when you use
+          our website. By using our website, you consent to the collection, use,
+          and disclosure of information as described in this Privacy Policy.
         </p>
         <p className="mt-2">
           <strong>Linking and Labeling:</strong> Our Privacy Policy is easily
@@ -23,7 +23,8 @@ function Privacy() {
         </p>
         <p className="mt-2">
           <strong>Entity Reference:</strong> Our Privacy Policy refers to the
-          entity known as Elechi's Restaurant, the provider of the website.
+          entity known as AFRICAN MENTAL HEALTH CENTER, the provider of the
+          website.
         </p>
         <p className="mt-2">
           <strong>Accessibility:</strong> Our Privacy Policy is presented on our
@@ -86,7 +87,7 @@ function Privacy() {
         <h2 className="mt-4 font-bold">Contact Us</h2>
         <p className="mt-2">
           If you have any questions or concerns about our Privacy Policy, please
-          contact us at <a href="mailto:help@elechis.com">help@elechis.com</a>.
+          contact us at <a href="mailto:help@elechis.com">help@amhc.com</a>.
         </p>
       </section>
       <Footer />

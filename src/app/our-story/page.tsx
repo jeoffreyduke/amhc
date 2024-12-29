@@ -47,7 +47,7 @@ const OurStory = () => {
   return (
     <main className="h-[100vh]">
       <Header />
-      <section className="w-100vw flex justify-center">
+      <section className="w-100vw flex justify-center bg-white">
         <div className="relative flex justify-center w-[90vw] h-[50vh] max-sm:h-[30vh]">
           <Image
             style={{ filter: "brightness(0.8) contrast(1.1) opacity: 0.7" }}
@@ -63,23 +63,19 @@ const OurStory = () => {
         </div>
       </section>
 
-      <section className="flex justify-center my-8">
+      <section className="flex justify-center my-8 bg-white">
         <div className="w-fit mx-16 max-sm:mx-8 flex max-sm:flex-col flex-wrap gap-4 bg-[rgb(233,186,0)] p-8">
           <p className="w-full text-center text-[14px]">
-            Elechi's is named after a Nigerian American who transitioned from
-            earth four months after turning 18. She had a deep love for Nigeria
-            and Memphis. When you step inside Elechis', we want to share
-            everything that shaped her incredible life, influenced by these two
-            amazing cultures she loved.
+            Elechi&apos;s is named after a Nigerian American who transitioned
+            from earth four months after turning 18. She had a deep love for
+            Nigeria and Memphis. When you step inside Elechis&apos;, we want to
+            share everything that shaped her incredible life, influenced by
+            these two amazing cultures she loved.
           </p>
         </div>
       </section>
 
-      <section className="w-full flex justify-center my-20">
-        <AnimatedCollage images={images} />
-      </section>
-
-      <section className="flex justify-center my-8">
+      <section className="flex justify-center my-8 bg-white">
         <div className="w-fit mx-16 max-sm:mx-8 flex max-sm:flex-col flex-wrap gap-4 bg-[rgb(233,186,0)] p-8">
           <p className="w-full text-center text-[14px]">
             Welcome to experiencing Elechi’s. Enjoy your time here, she would

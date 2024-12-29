@@ -1,9 +1,11 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import React, { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 function Contact() {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [loading, setLoading] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -31,11 +33,11 @@ function Contact() {
     <main className="h-[100vh]">
       <Header />
 
-      <p className="bg-[rgb(233,186,0)] w-fit mb-4 p-3 pr-[3rem] text-[1.5rem] m-16 max-sm:m-8">
+      <p className="bg-[rgb(240,230,220)] text-black w-full pb-4 pr-[3rem] text-[1.5rem] p-16 max-sm:m-8">
         <b>Contact Us</b>
       </p>
 
-      <div className="flex max-sm:justify-center p-16 pt-4 max-sm:mx-16 max-sm:p-8">
+      <div className="bg-[rgb(240,230,220)] text-black flex max-sm:justify-center p-16 pt-4 max-sm:mx-16 max-sm:p-8">
         <form onSubmit={handleSubmit}>
           <div className="mt-0">
             <label className="font-[600]">
@@ -89,7 +91,7 @@ function Contact() {
           </div>
 
           <button
-            className="bg-[rgb(30,24,0)] text-[rgb(233,186,0)] m-4 rounded-md h-[3rem] w-[20rem] mx-0"
+            className="bg-black text-white m-4 rounded-md h-[3rem] w-[20rem] mx-0"
             type="submit"
             onClick={handleSubmit}
           >

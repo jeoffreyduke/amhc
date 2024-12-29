@@ -8,15 +8,15 @@ function Terms() {
     <main>
       <Header />
 
-      <section className="p-8">
-        <p className="bg-[rgb(233,186,0)] w-fit p-3 text-[1.5rem] my-16 mt-8 max-sm:my-8">
+      <section className="bg-[rgb(240,230,220)] text-black p-8">
+        <p className="w-fit p-3 text-[1.5rem] my-16 mt-8 max-sm:my-8">
           <b>Terms of Use</b>
         </p>
 
         <p className="mt-2">
-          By using Elechi's Restaurant website, you agree to comply with the
-          following Terms of Use. Please review these terms carefully before
-          using the website.
+          By using AFRICAN MENTAL HEALTH CENTER website, you agree to comply
+          with the following Terms of Use. Please review these terms carefully
+          before using the website.
         </p>
         <h2 className="mt-4 font-bold">Acceptance of Terms</h2>
         <p className="mt-2">
@@ -26,10 +26,10 @@ function Terms() {
         </p>
         <h2 className="mt-4 font-bold">Use of the Website</h2>
         <p className="mt-2">
-          Elechi's Restaurant website is designed to provide information about
-          our restaurant, showcase our menu, and allow you to book reservations.
-          You may use the website for its intended purpose and in compliance
-          with these Terms of Use and applicable laws.
+          AFRICAN MENTAL HEALTH website is designed to provide information about
+          our organization, showcase our services, and allow you to make
+          bookings. You may use the website for its intended purpose and in
+          compliance with these Terms of Use and applicable laws.
         </p>
         <h2 className="mt-4 font-bold">Account Registration</h2>
         <p className="mt-2">
@@ -63,22 +63,22 @@ function Terms() {
         </ul>
         <h2 className="mt-4 font-bold">Limitation of Liability</h2>
         <p className="mt-2">
-          Elechi's Restaurant and its affiliates are not liable for any damages
-          arising from website usage. Please review the Terms of Use for more
-          information.
+          AFRICAN MENTAL HEALTH CENTER and its affiliates are not liable for any
+          damages arising from website usage. Please review the Terms of Use for
+          more information.
         </p>
         <h2 className="mt-4 font-bold">Modification of Terms</h2>
         <p className="mt-2">
-          Elechi's Restaurant reserves the right to modify these Terms of Use at
-          any time. It is your responsibility to periodically review the terms.
-          Continued use of the website indicates your acceptance of the updated
-          terms.
+          AFRICAN MENTAL HEALTH CENTER reserves the right to modify these Terms
+          of Use at any time. It is your responsibility to periodically review
+          the terms. Continued use of the website indicates your acceptance of
+          the updated terms.
         </p>
         <h2 className="mt-4 font-bold">Contact Us</h2>
         <p className="mt-2">
           If you have any questions or concerns regarding these Terms of Use,
           please contact us at{" "}
-          <a href="mailto:help@elechis.com">help@elechis.com</a>.
+          <a href="mailto:help@elechis.com">help@amhc.com</a>.
         </p>
       </section>
       <Footer />

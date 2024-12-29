@@ -1,0 +1,47 @@
+/* warn - The `@variants` directive has been deprecated in Tailwind CSS v3.0.
+warn - Use `@layer utilities` or `@layer components` instead.
+warn - https://tailwindcss.com/docs/upgrade-guide#replace-variants-with-layer */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+}
+
+:root {
+  --foreground-rgb: 239, 226, 215;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 30, 24, 0;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  background: rgb(var(--foreground-rgb));
+  color: rgb(var(--background-end-rgb));
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

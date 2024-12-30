@@ -22,6 +22,7 @@ const AuthRouteGuard: React.FC<AuthRouteGuardProps> = ({ children }) => {
         }
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, loading]);
 
   return <>{children}</>;

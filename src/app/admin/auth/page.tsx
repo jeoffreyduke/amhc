@@ -13,6 +13,7 @@ function Auth() {
 
   const usersRef = collection(db, "users");
   const [users] = useCollectionData(usersRef);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [user, loading] = useAuthState(auth);
 
   const [username, setUsername] = useState("");
@@ -25,6 +26,7 @@ function Auth() {
       setAuthLoading(true);
       await signInWithEmailAndPassword(auth, username, password);
       setAuthLoading(false);
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
       switch (error.code) {
         case AuthErrorCodes.INVALID_EMAIL:
@@ -46,6 +48,7 @@ function Auth() {
     }
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleLogin = (e: any) => {
     e.preventDefault();
 

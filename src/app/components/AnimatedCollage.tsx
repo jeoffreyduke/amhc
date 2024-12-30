@@ -53,6 +53,7 @@ const AnimatedCollage: FC<CollageProps> = ({ images, imageWidth = 500 }) => {
 
   useEffect(() => {
     animate();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [controls, images.length, imageWidth]);
 
   const pause = () => {

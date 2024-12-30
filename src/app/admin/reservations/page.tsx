@@ -53,6 +53,7 @@ const Reservations = () => {
             </div>
           </div>
           {!loading &&
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             reservations?.map((reservation: any) => (
               <>
                 <div className="flex justify-between gap-8 max-sm:gap-4">

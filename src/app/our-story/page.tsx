@@ -3,45 +3,6 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from "next/image";
 import sunflower from "../../../public/assets/sunflower.jpg";
-import one from "../../../public/assets/1.jpeg";
-import two from "../../../public/assets/2.jpeg";
-import three from "../../../public/assets/3.jpeg";
-import four from "../../../public/assets/4.jpeg";
-import five from "../../../public/assets/5.jpeg";
-import six from "../../../public/assets/6.jpeg";
-import seven from "../../../public/assets/7.jpeg";
-import eight from "../../../public/assets/8.jpeg";
-import nine from "../../../public/assets/9.jpeg";
-import ten from "../../../public/assets/10.jpeg";
-import eleven from "../../../public/assets/11.jpeg";
-import twelve from "../../../public/assets/12.jpeg";
-import thirteen from "../../../public/assets/13.jpeg";
-import fourteen from "../../../public/assets/14.jpeg";
-import fifteen from "../../../public/assets/15.jpeg";
-import sixteen from "../../../public/assets/16.jpeg";
-import seventeen from "../../../public/assets/17.jpeg";
-import { ImageData } from "../components/Carousel";
-import AnimatedCollage from "../components/AnimatedCollage";
-
-const images: ImageData[] = [
-  { src: one, alt: "image one" },
-  { src: two, alt: "image two" },
-  { src: three, alt: "image three" },
-  { src: four, alt: "image four" },
-  { src: five, alt: "image five" },
-  { src: six, alt: "image six" },
-  { src: seven, alt: "image seven" },
-  { src: eight, alt: "image eight" },
-  { src: nine, alt: "image nine" },
-  { src: ten, alt: "image ten" },
-  { src: eleven, alt: "image eleven" },
-  { src: twelve, alt: "image twelve" },
-  { src: thirteen, alt: "image thirteen" },
-  { src: fourteen, alt: "image fourteen" },
-  { src: fifteen, alt: "image fifteen" },
-  { src: sixteen, alt: "image sixteen" },
-  { src: seventeen, alt: "image seventeen" },
-];
 
 const OurStory = () => {
   return (

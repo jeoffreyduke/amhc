@@ -41,11 +41,14 @@ const Menu: React.FC<Props> = ({ active }) => {
         <span className="text-white mb-4 no-wrap">
           <Link href="/our-story">OUR STORY</Link>
         </span>
+        <span className="text-white mb-4 no-wrap">
+          <Link href="/programs">PROGRAMS</Link>
+        </span>
         <span className="text-white mb-4">
           <Link href="/contact">CONTACT</Link>
         </span>
         <span className="text-white mb-4">
-          <Link href="/reservation">RESERVATION</Link>
+          <Link href="/booking">BOOKING</Link>
         </span>
       </div>
     </motion.nav>

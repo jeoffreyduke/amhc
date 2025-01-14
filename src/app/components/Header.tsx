@@ -29,7 +29,7 @@ const Header = () => {
 
         <section>
           <Link href="/" className="flex justify-between items-center">
-            <div className="relative w-16 h-16">
+            <div className="relative w-0 h-16">
               <Image src={logo} fill alt="left" />
             </div>
             <b style={{ fontFamily: "Akkurat" }} className="text-[1.8rem]">
@@ -53,7 +53,7 @@ const Header = () => {
         </section>
       </header>
 
-      <header className="hidden max-sm:flex py-7 px-10 relative w-full items-center justify-between">
+      <header className="bg-[black!important] hidden max-sm:flex py-7 px-10 relative w-full items-center justify-between">
         <section className="relative w-10 h-10">
           <Link href="/">
             <Image className="z-30" src={logo} fill alt="left" />
@@ -62,8 +62,7 @@ const Header = () => {
 
         <section
           onClick={toggleMenu}
-          className="text-[0.75rem] flex items-center gap-1 cursor-pointer z-40"
-          style={{ color: active ? "white" : "rgb(30,24,0)" }}
+          className="text-white text-[0.75rem] flex items-center gap-1 cursor-pointer z-40"
         >
           {active ? <CloseRounded /> : <DragHandleRoundedIcon />}
           <span>{active ? "CLOSE" : "MENU"}</span>

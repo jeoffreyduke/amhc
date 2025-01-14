@@ -2,17 +2,18 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import sunflower from "../../../public/assets/sunflower.jpg";
+import typewriter from "../../../public/assets/typewriter.jpg";
+import pen from "../../../public/assets/pen.jpg";
 
 const OurStory = () => {
   return (
     <main className="h-[100vh]">
       <Header />
-      <section className="w-100vw flex justify-center bg-white">
-        <div className="relative flex justify-center w-[90vw] h-[50vh] max-sm:h-[30vh]">
+      <section className="w-[100vw] flex justify-center bg-[rgb(240,230,220)] py-20">
+        <div className="relative flex justify-center w-[90vw] h-[62vh] max-sm:h-[30vh]">
           <Image
             style={{ filter: "brightness(0.8) contrast(1.1) opacity: 0.7" }}
-            src={sunflower}
+            src={typewriter}
             objectFit="cover"
             layout="fill"
             fill
@@ -24,24 +25,32 @@ const OurStory = () => {
         </div>
       </section>
 
-      <section className="flex justify-center my-8 bg-white">
-        <div className="w-fit mx-16 max-sm:mx-8 flex max-sm:flex-col flex-wrap gap-4 bg-[rgb(233,186,0)] p-8">
-          <p className="w-full text-center text-[14px]">
-            Elechi&apos;s is named after a Nigerian American who transitioned
-            from earth four months after turning 18. She had a deep love for
-            Nigeria and Memphis. When you step inside Elechis&apos;, we want to
-            share everything that shaped her incredible life, influenced by
-            these two amazing cultures she loved.
+      <section className="w-[100vw] flex flex-col justify-center items-center">
+        <div className="w-[90vw] max-sm:w-[85vw] my-20">
+          <p className="text-lg text-center mt-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            malesuada, purus nec tincidunt volutpat, sed diam nonumy eirmod
+            tempor inc tempor ullamcorper sed velit. Ut wisi enim ad minim
+            veniam, et wisi et al. Ut en ullamcorper sed et al tempor, in erat
+            posuere. Ut wisi enim ad minim veniam, et wisi et al. Ut en
+            ullamcorper sed et al tempor, in erat posuere. Ut wisi enim ad minim
+            veniam, et wisi et al. Ut en ullamcorper sed et al tempor, in erat
+            posuere. Ut wisi enim ad minim veniam, et wisi et al. Ut en
+            ullamcorper sed et al tempor, in erat posuere. Ut wisi enim ad minim
+            veniam, et wisi et al. Ut en ullamcorper sed et al tempor, in erat
+            posuere. Ut wisi enim ad minim veniam, et wisi et al. Ut en
+            ullamcorper sed et al tempor, in erat posuere. Ut wisi enim ad minim
+            veniam, et wisi et al. Ut en ullamcorper sed et al tempor, in erat
+            posuere. Ut wisi enim ad minim veniam, et wisi et al. Ut en
+            ullamcorper sed et al tempor, in erat posuere. Ut wisi enim ad minim
+            veniam, et wisi et al. Ut en ullamcorper sed et al tempor, in erat
+            posuere. Ut wisi enim ad minim veniam, et wisi et al. Ut en
+            ullamcorper sed et al tempor, in erat posuere.
           </p>
         </div>
-      </section>
 
-      <section className="flex justify-center my-8 bg-white">
-        <div className="w-fit mx-16 max-sm:mx-8 flex max-sm:flex-col flex-wrap gap-4 bg-[rgb(233,186,0)] p-8">
-          <p className="w-full text-center text-[14px]">
-            Welcome to experiencing Elechi’s. Enjoy your time here, she would
-            want you to!
-          </p>
+        <div className="relative w-[70vw] h-[50vh] max-sm:h-[30vh] max-sm:w-[80vw]">
+          <Image src={pen} alt="curry rice" fill objectFit="contain" />
         </div>
       </section>
 

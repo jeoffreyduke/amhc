@@ -23,17 +23,17 @@ function Contact() {
     `;
 
     window.open(
-      `mailto:help@elechis.com?subject=Contact Form Submission&body=${encodeURIComponent(
+      `mailto:help@amhc.africa?subject=Contact Form Submission&body=${encodeURIComponent(
         emailContent
       )}`
     );
   };
 
   return (
-    <main className="h-[100vh]">
+    <main className="h-[100vh] bg-[rgb(240,230,220)]">
       <Header />
 
-      <p className="bg-[rgb(240,230,220)] text-black w-full pb-4 pr-[3rem] text-[1.5rem] p-16 max-sm:m-8">
+      <p className="bg-[rgb(240,230,220)] text-black w-full pb-4 pr-[3rem] text-[1.5rem] p-16 max-sm:m-0">
         <b>Contact Us</b>
       </p>
 

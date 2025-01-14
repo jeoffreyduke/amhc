@@ -66,6 +66,7 @@ function Auth() {
         } else if (user?.username === username && user?.password !== password) {
           setError("Wrong password, please try again");
         } else if (user?.username !== username && user?.password === password) {
+          console.log(user?.username, username, "Here is your username");
           setError("Your username does not seem to be correct");
         } else {
           setError("Incorrect credentials, please try again");
@@ -78,11 +79,11 @@ function Auth() {
     <main className="h-[100vh]">
       <Header />
 
-      <p className="bg-[rgb(233,186,0)] w-fit mb-4 p-3 pr-[3rem] text-[1.5rem] m-16 max-sm:m-8">
+      <p className="bg-[rgb(240,230,220)] text-black w-full pb-4 pr-[3rem] text-[1.5rem] p-16 max-sm:m-8">
         <b>Sign In</b>
       </p>
 
-      <div className="flex max-sm:justify-center p-16 pt-4 max-sm:mx-4 max-sm:p-4">
+      <div className="h-[70vh] bg-[rgb(240,230,220)] text-black flex max-sm:justify-center p-16 pt-4 max-sm:mx-4 max-sm:p-4">
         <form className="" onSubmit={handleLogin}>
           <div className="mt-0 w-[20rem]">
             <label className="font-[600]">
@@ -130,7 +131,7 @@ function Auth() {
           {error && <div className="text-[0.8rem] text-[red]">{error}</div>}
 
           <button
-            className="sm:w-[30rem] bg-[rgb(30,24,0)] text-[rgb(233,186,0)] m-4 rounded-md h-[3rem] w-[20rem] mx-0 my-8"
+            className="sm:w-[30rem] bg-black text-white m-4 rounded-md h-[3rem] w-[20rem] mx-0 my-8"
             type="submit"
             onClick={handleLogin}
           >

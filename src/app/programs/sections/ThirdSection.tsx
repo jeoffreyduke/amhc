@@ -11,7 +11,7 @@ const ThirdSection = () => {
             Holistic Health Training:
           </p>
 
-          <p className="w-full max-sm:w-[80vw] max-sm:text-center text-black text-[1.8rem]">
+          <p className="w-full max-sm:w-[80vw] max-sm:text-center text-black text-[1.8rem] max-sm:text-[1.4rem]">
             Equipping individuals with the skills and knowledge to cultivate
             holistic well-being through comprehensive training programs.
           </p>

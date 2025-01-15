@@ -11,7 +11,7 @@ function FifthSection() {
             Wellness Retreats & Lectures/Workshops:
           </p>
 
-          <p className="w-full max-sm:w-[80vw] max-sm:text-center text-black text-[1.8rem]">
+          <p className="w-full max-sm:w-[80vw] max-sm:text-center text-black text-[1.8rem] max-sm:text-[1.4rem]">
             Providing immersive experiences for personal growth and healing
             through retreats, engaging lectures, and interactive workshops.
           </p>

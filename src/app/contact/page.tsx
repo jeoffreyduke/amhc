@@ -30,10 +30,10 @@ function Contact() {
   };
 
   return (
-    <main className="h-[100vh] bg-[rgb(240,230,220)]">
+    <main className="bg-[rgb(240,230,220)]">
       <Header />
 
-      <p className="bg-[rgb(240,230,220)] text-black w-full pb-4 pr-[3rem] text-[1.5rem] p-16 max-sm:m-0">
+      <p className="bg-[rgb(240,230,220)] text-black w-full pb-4 pr-[3rem] text-[1.5rem] p-16 max-sm:pl-8 max-sm:m-0">
         <b>Contact Us</b>
       </p>
 

@@ -13,7 +13,7 @@ const SecondSection = () => {
           <p className="w-full text-white text-[0.9rem] max-sm:text-center">
             Community Outreach & Education:
           </p>
-          <p className="w-full text-white text-[1.8rem] max-sm:text-center">
+          <p className="w-full text-white text-[1.8rem] max-sm:text-[1.4rem] max-sm:text-center">
             Empowering communities with mental health knowledge and resources
             through accessible workshops and awareness campaigns.
           </p>

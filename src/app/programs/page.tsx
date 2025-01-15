@@ -15,7 +15,7 @@ const Booking = () => {
   return (
     <main className="h-[100vh]">
       <Header />
-      <section className="h-[82vh] max-sm:h-[75vh] bg-[rgb(240,230,220)] text-black w-100vw flex justify-center pt-20">
+      <section className="h-[82vh] max-sm:h-[75vh] bg-[rgb(240,230,220)] text-black w-100vw flex justify-center pt-20 max-sm:pt-12">
         <div className="relative w-full h-full flex flex-col items-center">
           <div className="relative flex justify-center w-[90vw] h-[58vh] max-sm:h-[60vh]">
             <Image

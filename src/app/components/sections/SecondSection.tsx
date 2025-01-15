@@ -10,7 +10,7 @@ const SecondSection = () => {
       </div>
       <div className="w-[50vw] h-[80vh] max-sm:w-[90vw] items-center max-sm:justify-center max-sm:mt-4 flex text-[0.8rem] mx-24 ml-0 max-sm:ml-24">
         <div className="w-[40rem] p-4">
-          <p className="w-full max-sm:w-[80vw] max-sm:text-center text-white text-[1.8rem]">
+          <p className="w-full max-sm:w-[80vw] max-sm:text-center text-white text-[1.8rem] max-sm:text-[1.35rem]">
             Embark on a journey of healing with our{" "}
             <b>Natural Holistic Healthcare </b>
             services. Discover a harmonious blend of ancient wisdom and modern

@@ -80,7 +80,7 @@ const Booking = () => {
   return (
     <main className="h-[100vh]">
       <Header />
-      <section className="bg-[rgb(240,230,220)] text-black w-100vw flex justify-center pt-20">
+      <section className="bg-[rgb(240,230,220)] text-black w-100vw flex justify-center pt-20 max-sm:pt-12">
         <div className="relative w-full h-full flex flex-col items-center">
           <div className="relative flex justify-center w-[90vw] h-[58vh] max-sm:h-[60vh]">
             <Image
@@ -97,7 +97,7 @@ const Booking = () => {
           </div>
 
           <button
-            className="bg-black text-white m-5 mt-12 rounded-md h-[3rem] w-[20rem] mx-1"
+            className="bg-black text-white m-5 mt-12 max-sm:mt-4 max-sm:mb-[3.7rem] rounded-md h-[3rem] w-[20rem] mx-1"
             onClick={() => setOpen(true)}
           >
             <b>Make a booking</b>

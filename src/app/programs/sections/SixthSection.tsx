@@ -18,7 +18,7 @@ function SixthSection() {
           <p className="w-full text-white text-[0.9rem] max-sm:text-center">
             Online Courses:
           </p>
-          <p className="w-full text-white text-[1.8rem] max-sm:text-center">
+          <p className="w-full text-white text-[1.8rem] max-sm:text-[1.4rem] max-sm:text-center">
             Accessible learning opportunities for individuals seeking to enhance
             their mental and emotional well-being through convenient online
             courses.

@@ -13,7 +13,7 @@ function FourthSection() {
           <p className="w-full text-white text-[0.9rem] max-sm:text-center">
             Research on African Medicine:
           </p>
-          <p className="w-full text-white text-[1.8rem] max-sm:text-center">
+          <p className="w-full text-white text-[1.8rem] max-sm:text-[1.4rem] max-sm:text-center">
             Exploring and validating the efficacy of traditional African
             medicine practices for mental and physical health.
           </p>
